@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Talento Tech | Tienda Online</title>
+   
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   
+   <!-- Bootstrap 5 -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   
+   <!-- CSS -->
+   <link rel="stylesheet" href="./css/base.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+
+<body>
+
+   <header class="header">
+
+      <div class="logo-container">
+         <a href="#" class="logo-link">
+            <img src="./assets/img/logo.png" alt="Logo de la tienda" class="logo">
+         </a>
+
+         <h1 class="site-title">
+            Tienda Online
+         </h1>
+      </div>
+
+      <nav class="top-nav">
+         <ul class="top-nav-list">
+
+            <li class="top-nav-item">
+               <a href="#" class="top-nav-link">
+                  Login
+               </a>
+            </li>
+
+            <li class="top-nav-item">
+               <a href="#registro" class="top-nav-link">
+                  Registro
+               </a>
+            </li>
+
+            <li class="top-nav-item">
+               <a href="./pages/carrito.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                     <path fill="currentColor"
+                        d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0 1a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1m-9-1a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0 1a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1M18 6H4.27l2.55 6H15c.33 0 .62-.16.8-.4l3-4c.13-.17.2-.38.2-.6a1 1 0 0 0-1-1m-3 7H6.87l-.77 1.56L6 15a1 1 0 0 0 1 1h11v1H7a2 2 0 0 1-2-2a2 2 0 0 1 .25-.97l.72-1.47L2.34 4H1V3h2l.85 2H18a2 2 0 0 1 2 2c0 .5-.17.92-.45 1.26l-2.91 3.89c-.36.51-.96.85-1.64.85">
+                     </path>
+                  </svg> 
+               </a>
+            </li>
+         </ul>
+      </nav>
+
+   </header>
+
+   <nav class="main-nav">
+
+      <ul class="main-nav-list">
+
+         <li class="main-nav-item">
+            <a href="#" class="main-nav-link">
+               Inicio
+            </a>
+         </li>
+
+         <li class="main-nav-item">
+            <a href="#productos" class="main-nav-link">
+               Productos
+            </a>
+         </li>
+
+         <li class="main-nav-item">
+            <a href="#reviews" class="main-nav-link">
+               Reseñas
+            </a>
+         </li>
+
+         <li class="main-nav-item">
+            <a href="#contacto" class="main-nav-link">
+               Contacto
+            </a>
+         </li>
+
+         <li class="main-nav-item">
+            <a href="./pages/carrito.html" class="main-nav-link">
+               Carrito
+            </a>
+         </li>
+
+      </ul>
+
+   </nav>
+
+   <main>
+
+      <section class="hero-section">
+
+         <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+
+               <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+
+               <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+
+               <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+
+               <div class="carousel-item active">
+                  <img src="https://picsum.photos/1200/500?random=1" class="d-block w-100" alt="Colección destacada 1">
+               </div>
+
+               <div class="carousel-item">
+                  <img src="https://picsum.photos/1200/500?random=2" class="d-block w-100" alt="Colección destacada 2">
+               </div>
+
+               <div class="carousel-item">
+                  <img src="https://picsum.photos/1200/500?random=3" class="d-block w-100" alt="Colección destacada 3">
+               </div>
+
+            </div>
+
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+
+               <span class="carousel-control-prev-icon"></span>
+
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+
+               <span class="carousel-control-next-icon"></span>
+
+            </button>
+
+         </div>
+
+      </section>
+
+      <section id="productos" class="products-section">
+
+         <h2 class="section-title">
+            Productos Destacados
+         </h2>
+
+         <div class="products-grid">
+
+            <article class="product-card">
+
+               <img src="https://picsum.photos/300/400?random=1" alt="Vestido elegante color beige"
+                  class="product-image">
+
+               <div class="product-content">
+
+                  <h3 class="product-title">
+                     Vestido Elegance
+                  </h3>
+
+                  <p class="product-description">
+                     Diseño moderno y elegante ideal para ocasiones especiales.
+                  </p>
+
+                  <p class="product-price">
+                     <span>Precio:</span> $99.99
+                  </p>
+
+                  <button type="button" class="product-button">
+                     Comprar
+                  </button>
+
+               </div>
+
+            </article>
+
+            <article class="product-card">
+
+               <img src="https://picsum.photos/300/400?random=2" alt="Blazer femenino color negro"
+                  class="product-image">
+
+               <div class="product-content">
+
+                  <h3 class="product-title">
+                     Blazer Premium
+                  </h3>
+
+                  <p class="product-description">
+                     Estilo sofisticado y minimalista para cualquier ocasión.
+                  </p>
+
+                  <p class="product-price">
+                     <span>Precio:</span> $129.99
+                  </p>
+
+                  <button type="button" class="product-button">
+                     Comprar
+                  </button>
+
+               </div>
+
+            </article>
+
+            <article class="product-card">
+
+               <img src="https://picsum.photos/300/400?random=3" alt="Conjunto casual femenino" class="product-image">
+
+               <div class="product-content">
+
+                  <h3 class="product-title">
+                     Conjunto Urban
+                  </h3>
+
+                  <p class="product-description">
+                     Comodidad y estilo urbano combinados en una sola prenda.
+                  </p>
+
+                  <p class="product-price">
+                     <span>Precio:</span> $89.99
+                  </p>
+
+                  <button type="button" class="product-button">
+                     Comprar
+                  </button>
+
+               </div>
+
+            </article>
+
+         </div>
+
+      </section>
+
+      <section id="reviews" class="reviews-section">
+
+         <h2 class="section-title">
+            Opiniones de Nuestros Clientes
+         </h2>
+
+         <div class="reviews-grid">
+
+            <article class="review-card">
+
+               <h3 class="review-title">
+                  "Calidad y Elegancia que Impresiona"
+               </h3>
+
+               <p class="review-text">
+                  "Cada prenda de Julchic es una obra de arte. La calidad de las telas y el diseño son impecables."
+               </p>
+
+               <p class="review-author">
+                  - Sofía R.
+               </p>
+
+            </article>
+
+            <article class="review-card">
+
+               <h3 class="review-title">
+                  "Mi Nueva Marca Favorita"
+               </h3>
+
+               <p class="review-text">
+                  "La atención al detalle es asombrosa y me siento increíble con cada compra."
+               </p>
+
+               <p class="review-author">
+                  - Valentina G.
+               </p>
+
+            </article>
+
+            <article class="review-card">
+
+               <h3 class="review-title">
+                  "Estilo Único y Atemporal"
+               </h3>
+
+               <p class="review-text">
+                  "Finalmente encontré una marca que combina modernidad con un toque clásico."
+               </p>
+
+               <p class="review-author">
+                  - Camila B.
+               </p>
+
+            </article>
+
+         </div>
+
+      </section>
+
+      <section id="contacto" class="contact-section">
+
+         <h2 class="section-title">
+            ¿Tienes Preguntas? Contáctanos
+         </h2>
+
+         <p class="contact-description">
+            Nuestro equipo está listo para ayudarte a encontrar el outfit perfecto.
+         </p>
+
+         <form action="https://formspree.io/#" method="POST" class="contact-form">
+
+            <div class="form-group">
+
+               <label for="nombre" class="form-label">
+                  Nombre
+               </label>
+
+               <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Tu nombre" required>
+
+            </div>
+
+            <div class="form-group">
+
+               <label for="email" class="form-label">
+                  Correo Electrónico
+               </label>
+
+               <input type="email" id="email" name="email" class="form-input" placeholder="tu.correo@ejemplo.com"
+                  required>
+
+            </div>
+
+            <div class="form-group">
+
+               <label for="mensaje" class="form-label">
+                  Mensaje
+               </label>
+
+               <textarea id="mensaje" name="mensaje" class="form-textarea" rows="6"
+                  placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
+
+            </div>
+
+            <input type="submit" value="Enviar Mensaje" class="submit-button">
+
+         </form>
+
+      </section>
+
+   </main>
+
+   <footer class="footer">
+      <p class="footer-text">
+         © 2026 Tienda Online - Todos los derechos reservados
+      </p>
+   </footer>
+
+   <!-- Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
