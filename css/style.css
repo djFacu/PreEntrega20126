@@ -211,7 +211,7 @@ main {
    .reviews-section {
       background-color: #e0e7ff;
 
-      .reviews-grid {
+      .reviews-flex {
          display: flex;
          flex-wrap: wrap;
          gap: 2rem;
