@@ -5,19 +5,29 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Talento Tech | Tienda Online</title>
-   
+
    <!-- Favicon -->
    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-   
+
    <!-- Bootstrap 5 -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-   integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-   
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
    <!-- CSS -->
    <link rel="stylesheet" href="./css/base.css">
    <link rel="stylesheet" href="./css/style.css">
    <link rel="stylesheet" href="./css/footer.css">
 
+   <script>
+
+      // Comentario en línea
+
+      /*
+         Comentario en varias líneas
+      */
+
+   </script>
+   <script src="./js/carrito.js" defer></script>
 </head>
 
 <body>
@@ -55,7 +65,8 @@
                      <path fill="currentColor"
                         d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0 1a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1m-9-1a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0 1a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1M18 6H4.27l2.55 6H15c.33 0 .62-.16.8-.4l3-4c.13-.17.2-.38.2-.6a1 1 0 0 0-1-1m-3 7H6.87l-.77 1.56L6 15a1 1 0 0 0 1 1h11v1H7a2 2 0 0 1-2-2a2 2 0 0 1 .25-.97l.72-1.47L2.34 4H1V3h2l.85 2H18a2 2 0 0 1 2 2c0 .5-.17.92-.45 1.26l-2.91 3.89c-.36.51-.96.85-1.64.85">
                      </path>
-                  </svg> 
+                  </svg>
+                  <div class="count"></div>
                </a>
             </li>
          </ul>
@@ -101,13 +112,17 @@
 
    </nav>
 
-   <main>
+   <script>
+      // Código JavaScript para funcionalidades adicionales (si es necesario)
+   </script>
 
+   <main>
+<!-- 
       <section class="hero-section">
 
          <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
 
-            <!-- Indicadores -->
+            
             <div class="carousel-indicators">
 
                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
@@ -118,7 +133,7 @@
 
             </div>
 
-            <!-- Slides -->
+            
             <div class="carousel-inner">
 
                <div class="carousel-item active">
@@ -135,7 +150,7 @@
 
             </div>
 
-            <!-- Controles -->
+   
             <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
 
                <span class="carousel-control-prev-icon"></span>
@@ -151,15 +166,15 @@
          </div>
 
       </section>
-
+ -->
       <section id="productos" class="products-section">
 
          <h2 class="section-title">
             Productos Destacados
          </h2>
 
-         <div class="products-grid">
-
+         <div id="productCard" class="products-grid">
+<!-- 
             <article class="product-card">
 
                <img src="https://picsum.photos/300/400?random=1" alt="Vestido elegante color beige"
@@ -176,11 +191,12 @@
                   </p>
 
                   <p class="product-price">
-                     <span>Precio:</span> $99.99
+                     <span>Precio:</span> 
+                     <span class="price">$99.99</span>
                   </p>
 
                   <button type="button" class="product-button">
-                     Comprar
+                     Añadir al Carrito
                   </button>
 
                </div>
@@ -203,7 +219,8 @@
                   </p>
 
                   <p class="product-price">
-                     <span>Precio:</span> $129.99
+                     <span>Precio:</span> 
+                     <span class="price">$129.99</span>
                   </p>
 
                   <button type="button" class="product-button">
@@ -229,7 +246,8 @@
                   </p>
 
                   <p class="product-price">
-                     <span>Precio:</span> $89.99
+                     <span>Precio:</span> 
+                     <span class="price">$89.99</span>
                   </p>
 
                   <button type="button" class="product-button">
@@ -239,8 +257,10 @@
                </div>
 
             </article>
-
+ -->
          </div>
+
+<button id="mostrarProducts">Mostrar más productos</button>
 
       </section>
 
@@ -369,6 +389,8 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"></script>
+
+   <!-- <script src="./js/app.js"></script> -->
 </body>
 
 </html>
